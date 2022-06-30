@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+
+    <head>
+        <title>JPDB FORM</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <script src="/index.js"></script>
+            <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Add your self to our server</h2>
+            <form id="empForm" method="post">
+                <div class="form-group">
+                    <span><label for="empId">Employee ID:</label> <label
+                            id="empIdMsg">
+                        </label></span>
+                    <input type="text" class="form-control" name="empId"
+                        id="empId" placeholder="Enter Employee ID"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="empName">Employee Name:</label>
+                    <input type="text" class="form-control" id="empName"
+                        placeholder="Enter Employee Name" name="empName">
+                </div>
+                <div class="form-group">
+                    <label for="empEmail">Email:</label>
+                    <input type="email" class="form-control" id="empEmail"
+                        placeholder="Enter Employee Email"
+                        name="empEmail">
+                </div>
+                <div class="form-group">
+                    <label for="empPassword">Enter a Password:</label>
+                    <div class="container-fluid  row">
+                        <input type="password" class="form-control" id="empPassword"
+                        placeholder="Enter a password"
+                        name="empPassword">
+                    </div>
+                </div>
+                <input type="button" class="btn btn-primary" id="empSave"
+                    value="Save" onclick="saveEmployee();">
+            </form>
+        </div>
+       
+    </body>
+
+</html>
