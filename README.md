@@ -29,3 +29,6 @@ link this js lib to our page and use those functions when we need them.
 ## Release Date
 _30 th  **june** 2022_
 
+## Snip
+
+![Screenshot 2022-06-30 174321](https://user-images.githubusercontent.com/55614671/176675693-c4cbe6f6-f0fb-4846-a07a-ac92652e28be.png)
